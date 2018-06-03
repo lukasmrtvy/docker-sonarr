@@ -34,4 +34,5 @@ VOLUME /config/
 
 USER ${USER}
 
+
 ENTRYPOINT ["mono", "/opt/sonarr/NzbDrone.exe", "--no-browser -data=/config"]
